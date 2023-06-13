@@ -116,10 +116,10 @@ main {
     
 }
 
-\2713 {
+.check {
     color:green;
 }
 
-\2717 {
-    background-color:red;
+.nocheck{
+    color:red;
 }
