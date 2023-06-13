@@ -82,6 +82,11 @@ main {
     font-size: small;
 }
 
+ul {
+    list-style: none;
+    margin:0;
+}
+
 .Mobile {
     display: inline-block;
     width: 8%;
@@ -118,8 +123,10 @@ main {
 
 .check {
     color:green;
+    border: 1px, solid, green;
 }
 
 .nocheck{
     color:red;
+    border: 1px, solid, red;
 }
