@@ -1,0 +1,17 @@
+.logo {
+    width:80px;
+}
+.logotext {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.logo,
+.logotext {
+    vertical-align: middle;
+}
+
+main {
+    background-color:rgb(112, 111, 111);
+}
