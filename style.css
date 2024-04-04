@@ -17,9 +17,65 @@ header {
 }
 
 .logo {
-display: inline-block;
+    display: inline-block;
 }
 
 .img-logo, .logo {
-vertical-align:middle;
+    vertical-align:middle;
+}
+
+.list {
+    width: 1000px;
+    margin: 50px auto;
+    background-color:white;
+    padding: 30px 0;
+}
+
+.textone {
+    display: inline-block;
+    width: 10%;
+    background-color:rgb(11, 166, 243);
+    border-radius:5px;
+    text-align:center;
+    color:white;
+    padding: 5px 10px;
+}
+
+.textsecond {
+    display: inline-block;
+    width: 10%;
+    padding:5px 10px;
+    background-color:rgb(255, 255, 255);
+    border-radius:5px;
+    text-align:center;
+    color:rgb(197, 194, 194);
+    border-color: rgb(197,194,194);
+    border:solid;
+}
+
+.list h3 {
+    margin: 40px 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.check {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.check.checkcorrect {
+    color:green;
+}
+
+.check.checkerror {
+    color:red;
 }
