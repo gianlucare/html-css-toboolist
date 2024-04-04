@@ -69,7 +69,7 @@ ul {
     text-align: center;
     border: 1px solid currentColor;
     border-radius: 50%;
-    margin: 10px 0;
+    margin: 6px;
 }
 
 .check.checkcorrect {
